@@ -2,7 +2,7 @@
 
 > LangChain.js + LangGraph tools for **Arenza** — give any agent typed access to AI visibility metrics, GEO opportunities, and brand mention data across ChatGPT, Claude, Gemini, Perplexity, Copilot, and Grok.
 
-[Arenza](https://arenza.ai) is a Generative Engine Optimization (GEO) platform that measures how 6 leading AI assistants describe brands. This package wraps the [Arenza MCP server](https://mcp.arenza.ai) as LangChain `DynamicStructuredTool` instances so a LangChain or LangGraph agent can call them like any other tool — with full Zod schemas, GEO-keyword-rich descriptions for solid tool selection, and the same return shapes as `arenza-mcp-client`.
+[Arenza](https://arenza.ai) is a Generative Engine Optimization (GEO) platform that measures how 6 leading AI assistants describe brands. This package wraps the [Arenza MCP server](https://mcp.arenza.ai) as LangChain `DynamicStructuredTool` instances so a LangChain or LangGraph agent can call them like any other tool — with full Zod schemas, GEO-keyword-rich descriptions for solid tool selection, and the same return shapes as `@arenza/mcp-client`.
 
 ## Why an Arenza tool plugin (not just a fetch loop)
 
@@ -163,11 +163,11 @@ const agent = createReactAgent({
 
 ## Related projects
 
-- [`arenza-mcp-client`](https://github.com/arenza-ai/arenza-mcp-client-ts) — the typed TS client this wraps.
+- [`@arenza/mcp-client`](https://github.com/arenza-ai/arenza-mcp-client-ts) — the typed TS client this wraps.
 - [`arenza-mcp-client-python`](https://github.com/arenza-ai/arenza-mcp-client-python) — Python equivalent.
-- [`arenza-cli`](https://github.com/arenza-ai/arenza-cli) — `npx arenza scan brand.com` for terminal scans.
-- [`arenza-llamaindex`](https://github.com/arenza-ai/arenza-llamaindex) — same six tools wrapped for LlamaIndex.
-- [`arenza-vercel-ai-sdk`](https://github.com/arenza-ai/arenza-vercel-ai-sdk) — Vercel AI SDK provider.
+- [`@arenza/cli`](https://github.com/arenza-ai/arenza-cli) — `npx arenza scan brand.com` for terminal scans.
+- [`@arenza/llamaindex`](https://github.com/arenza-ai/arenza-llamaindex) — same six tools wrapped for LlamaIndex.
+- [`@arenza/vercel-ai-sdk`](https://github.com/arenza-ai/arenza-vercel-ai-sdk) — Vercel AI SDK provider.
 - [`arenza-zapier-actions`](https://github.com/arenza-ai/arenza-zapier-actions) — Zapier integration manifest.
 - [awesome-geo](https://github.com/arenza-ai/awesome-geo) — curated list of GEO and AI-visibility resources.
 
