@@ -26,10 +26,10 @@
   "homepage": "https://arenza.ai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naiqiao/arenza-langchain.git"
+    "url": "git+https://github.com/arenza-ai/arenza-langchain.git"
   },
   "bugs": {
-    "url": "https://github.com/naiqiao/arenza-langchain/issues"
+    "url": "https://github.com/arenza-ai/arenza-langchain/issues"
   },
   "type": "module",
   "main": "dist/index.js",

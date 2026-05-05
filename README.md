@@ -163,13 +163,13 @@ const agent = createReactAgent({
 
 ## Related projects
 
-- [`arenza-mcp-client`](https://github.com/naiqiao/arenza-mcp-client-ts) — the typed TS client this wraps.
-- [`arenza-mcp-client-python`](https://github.com/naiqiao/arenza-mcp-client-python) — Python equivalent.
-- [`arenza-cli`](https://github.com/naiqiao/arenza-cli) — `npx arenza scan brand.com` for terminal scans.
-- [`arenza-llamaindex`](https://github.com/naiqiao/arenza-llamaindex) — same six tools wrapped for LlamaIndex.
-- [`arenza-vercel-ai-sdk`](https://github.com/naiqiao/arenza-vercel-ai-sdk) — Vercel AI SDK provider.
-- [`arenza-zapier-actions`](https://github.com/naiqiao/arenza-zapier-actions) — Zapier integration manifest.
-- [awesome-geo](https://github.com/naiqiao/awesome-geo) — curated list of GEO and AI-visibility resources.
+- [`arenza-mcp-client`](https://github.com/arenza-ai/arenza-mcp-client-ts) — the typed TS client this wraps.
+- [`arenza-mcp-client-python`](https://github.com/arenza-ai/arenza-mcp-client-python) — Python equivalent.
+- [`arenza-cli`](https://github.com/arenza-ai/arenza-cli) — `npx arenza scan brand.com` for terminal scans.
+- [`arenza-llamaindex`](https://github.com/arenza-ai/arenza-llamaindex) — same six tools wrapped for LlamaIndex.
+- [`arenza-vercel-ai-sdk`](https://github.com/arenza-ai/arenza-vercel-ai-sdk) — Vercel AI SDK provider.
+- [`arenza-zapier-actions`](https://github.com/arenza-ai/arenza-zapier-actions) — Zapier integration manifest.
+- [awesome-geo](https://github.com/arenza-ai/awesome-geo) — curated list of GEO and AI-visibility resources.
 
 ## Resources
 
