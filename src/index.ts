@@ -1,5 +1,5 @@
 /**
- * arenza-langchain — LangChain.js tool wrappers for the Arenza GEO platform.
+* @arenza/langchain — LangChain.js tool wrappers for the Arenza GEO platform.
  *
  * Drop the result of `getArenzaTools(client)` into any LangChain or
  * LangGraph agent that accepts a `tools: DynamicStructuredTool[]` array.
@@ -10,7 +10,7 @@
  * Quick wiring:
  *
  *     import { ArenzaMCPClient } from '@arenza/mcp-client';
- *     import { getArenzaTools } from 'arenza-langchain';
+ *     import { getArenzaTools } from '@arenza/langchain';
  *     import { createReactAgent } from '@langchain/langgraph/prebuilt';
  *
  *     const client = new ArenzaMCPClient({ token: process.env.ARENZA_TOKEN! });
