@@ -10,7 +10,7 @@
  */
 
 import { DynamicStructuredTool } from '@langchain/core/tools';
-import type { ArenzaMCPClient } from 'arenza-mcp-client';
+import type { ArenzaMCPClient } from '@arenza/mcp-client';
 import { z } from 'zod';
 
 export interface GetArenzaToolsOptions {

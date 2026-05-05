@@ -9,7 +9,7 @@
  *
  * Quick wiring:
  *
- *     import { ArenzaMCPClient } from 'arenza-mcp-client';
+ *     import { ArenzaMCPClient } from '@arenza/mcp-client';
  *     import { getArenzaTools } from 'arenza-langchain';
  *     import { createReactAgent } from '@langchain/langgraph/prebuilt';
  *
