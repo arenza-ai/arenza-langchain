@@ -1,7 +1,7 @@
 {
-  "name": "arenza-langchain",
+  "name": "@arenza/langchain",
   "version": "0.1.0",
-  "description": "LangChain.js tools for Arenza — let any LangChain or LangGraph agent read AI visibility metrics, GEO opportunities, and brand mention data across ChatGPT, Claude, Gemini, Perplexity, Copilot, and Grok.",
+  "description": "LangChain.js tools for Arenza \u2014 let any LangChain or LangGraph agent read AI visibility metrics, GEO opportunities, and brand mention data across ChatGPT, Claude, Gemini, Perplexity, Copilot, and Grok.",
   "keywords": [
     "arenza",
     "geo",
@@ -48,7 +48,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "arenza-mcp-client": "^0.1.0",
+    "@arenza/mcp-client": "^0.1.0",
     "zod": "^3.23.0"
   },
   "peerDependencies": {

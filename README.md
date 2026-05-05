@@ -11,9 +11,9 @@ LangGraph agents that need to answer "how does ChatGPT describe my brand?" or "w
 ## Install
 
 ```bash
-npm install arenza-langchain arenza-mcp-client @langchain/core
+npm install @arenza/langchain arenza-mcp-client @langchain/core
 # or
-pnpm add arenza-langchain arenza-mcp-client @langchain/core
+pnpm add @arenza/langchain arenza-mcp-client @langchain/core
 ```
 
 `@langchain/core` is a peer dependency — install whichever version your LangChain stack already uses (`>=0.2.0`).
@@ -21,8 +21,8 @@ pnpm add arenza-langchain arenza-mcp-client @langchain/core
 ## Quick start (LangGraph)
 
 ```ts
-import { ArenzaMCPClient } from 'arenza-mcp-client';
-import { getArenzaTools } from 'arenza-langchain';
+import { ArenzaMCPClient } from '@arenza/mcp-client';
+import { getArenzaTools } from '@arenza/langchain';
 import { ChatOpenAI } from '@langchain/openai';
 import { createReactAgent } from '@langchain/langgraph/prebuilt';
 
@@ -54,8 +54,8 @@ Then the agent stitches a natural-language answer.
 ## Quick start (vanilla LangChain.js, single tool call)
 
 ```ts
-import { ArenzaMCPClient } from 'arenza-mcp-client';
-import { getArenzaTools } from 'arenza-langchain';
+import { ArenzaMCPClient } from '@arenza/mcp-client';
+import { getArenzaTools } from '@arenza/langchain';
 
 const client = new ArenzaMCPClient({ token: process.env.ARENZA_TOKEN! });
 const [listBrands] = getArenzaTools(client);
@@ -115,8 +115,8 @@ Get a token at [app.arenza.ai/settings/api](https://app.arenza.ai/settings/api).
 ## Pattern: weekly GEO triage agent
 
 ```ts
-import { ArenzaMCPClient } from 'arenza-mcp-client';
-import { getArenzaTools } from 'arenza-langchain';
+import { ArenzaMCPClient } from '@arenza/mcp-client';
+import { getArenzaTools } from '@arenza/langchain';
 import { ChatAnthropic } from '@langchain/anthropic';
 import { createReactAgent } from '@langchain/langgraph/prebuilt';
 
